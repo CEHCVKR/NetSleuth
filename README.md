@@ -52,7 +52,7 @@ NetSleuth is a Python-based network scanning and port monitoring tool designed t
 Run the main script:
 
 ```bash
-python netsleuth.py
+python main.py
 ```
 
 The scanner will start detecting devices and open ports on your local subnet and log the results to `scanner.log`. To stop the scanner, press `Ctrl+C`.
