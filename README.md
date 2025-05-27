@@ -1,7 +1,7 @@
 
 # NetSleuth - Network Scanner and Port Monitor
 
-> NetSleuth: Intelligent Network Scanner with MAC Vendor Lookup and Port Monitoring  
+> **NetSleuth**: Intelligent Network Scanner with MAC Vendor Lookup and Port Monitoring  
 > **Author**: CHINNAPAREDDY VENKATA KARTHIK REDDY  
 > **For Educational and Ethical Research Purposes Only**
 
@@ -36,11 +36,13 @@ NetSleuth is a Python-based network scanning and port monitoring tool designed t
 1. Install Python 3.11+ from [python.org](https://www.python.org/downloads/).
 
 2. Install dependencies using pip:
+
    ```bash
-   pip install scapy manuf
+   pip install -r requirements.txt
    ```
 
 3. Install `netifaces` wheel file included in this repository:
+
    ```bash
    pip install netifaces-0.11.0-cp311-cp311-win_amd64.whl
    ```
@@ -62,6 +64,7 @@ The scanner will start detecting devices and open ports on your local subnet and
 ## Logging
 
 Logs are saved to `scanner.log` with rotation:
+
 - Max size: 50KB
 - 3 backup log files
 
